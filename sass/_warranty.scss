@@ -1,0 +1,33 @@
+.warranty__container{
+  padding: 20px;
+  border: 5px solid rgba(153, 153, 153, 1)
+}
+.warranty__title{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.92px;
+  text-align: center;
+}
+.warranty__brand{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.92px;
+  text-align: center;
+}
+.warranty__list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.warranty__item{
+
+}
+.warranty__option{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  border: 1.09px solid rgba(153, 153, 153, 1)
+}
+.warranty__option span{
+  width: 100%;
+}
