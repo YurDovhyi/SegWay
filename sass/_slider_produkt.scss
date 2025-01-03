@@ -1,0 +1,48 @@
+.cards-slider__container{
+  position: relative;
+  background-color: var(--main-color);
+}
+.cards-slider__button{
+  
+}
+.cards-slider__button--prev{
+  position: absolute;
+  top: 37px;
+  left: 5px;
+}
+.cards-slider__button--next{
+  position: absolute;
+  top: 37px;
+  right: 5px;
+}
+.arow-left{
+  transform: rotate(180deg);
+}
+.cards-slider__wrapper{
+  display: flex;
+  height: 103px;
+}
+.cards-slider__card{
+  width: 103px;
+  padding: 12px;
+ 
+}
+.cards-slider__card--active{
+  background-color: var(--acent-color);
+}
+.cards-slider__caption{
+  margin-top: 10px;
+}
+.cards-slider__image{
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards-slider__text{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17.89px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  color: rgba(196, 196, 196, 1);
+}

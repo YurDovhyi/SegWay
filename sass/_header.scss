@@ -1,0 +1,23 @@
+.header__container{
+  padding: 11px;
+  display: flex;
+  align-items: center;
+}
+.header__burger-menu{
+  margin-left: 4px;
+  margin-right: 100px;
+}
+.header__logo{
+  margin-right: 50px;
+}
+.header__actions{
+display: flex; 
+align-items: center;
+justify-content: space-between;
+}
+.header__action-link--phone{
+  margin-right: 10px;
+}
+.header__action-link--insta{
+  margin-right: 10px;
+}

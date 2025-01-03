@@ -1,0 +1,93 @@
+/* Сброс стилей для всех элементов */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Сброс стилей для текста */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: transparent;
+    color: inherit;
+}
+
+/* Сброс для заголовков h1 - h6 */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+/* Сброс для абзацев */
+p {
+    margin-bottom: 1em;
+}
+
+/* Сброс для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+/* Сброс для списков ul, ol и элементов списка li */
+ul, ol {
+    list-style: none;
+}
+
+li {
+    margin: 0;
+}
+
+/* Сброс для div */
+div {
+    display: block;
+}
+
+/* Сброс для ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сброс для таблиц */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0;
+    text-align: left;
+}
+
+/* Сброс для форм */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Сброс для кнопок */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Сброс для input, textarea и других элементов формы */
+input, textarea, select, button {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+/* Сброс для ссылок в блоках */
+a:focus, a:hover {
+    outline: none;
+}
