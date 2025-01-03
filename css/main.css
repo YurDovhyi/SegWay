@@ -362,4 +362,11 @@ a:focus, a:hover {
 
 .warranty__option span {
   width: 100%;
+}
+
+.warranty__new-price {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46.28px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
