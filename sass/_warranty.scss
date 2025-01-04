@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .warranty__item{
 
@@ -26,15 +27,44 @@
   display: flex;
   flex-wrap: wrap;
   width: 100px;
+  padding: 5px;
   border: 1.09px solid rgba(153, 153, 153, 1)
 }
 .warranty__option span{
   width: 100%;
 }
-
+.warranty__price{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18.59px;
+  text-align: center;
+  color: var(--acent-color);
+}
+.warranty__old-price{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26.8px;
+  text-align: center;
+  text-decoration-line: line-through;
+}
 .warranty__new-price{
-font-size: 38px;
-font-weight: 700;
-line-height: 46.28px;
-text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46.28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.warranty__actions{
+  display: flex;
+  justify-content: space-between;
+}
+.warranty__button{
+  width: 150px;
+  height: 48px;
+  background-color: var(--acent-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
 }
