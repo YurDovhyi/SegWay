@@ -1,0 +1,40 @@
+.payment__title{
+  
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.92px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.payment__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.payment__item{
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.payment__info{
+color: var(--acent-color);
+font-size: 18px;
+font-weight: 600;
+line-height: 21.92px;
+text-align: center;
+margin-bottom: 20px;
+
+}
+.payment__provider-logo{
+  display: inline;
+}
+.payment__link-qualify{
+  color: rgba(106, 205, 104, 1);
+font-size: 18px;
+font-weight: 600;
+line-height: 21.92px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}

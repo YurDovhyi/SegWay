@@ -323,6 +323,7 @@ a:focus, a:hover {
 
 .warranty__container {
   padding: 20px;
+  margin-bottom: 25px;
   border: 5px solid rgb(153, 153, 153);
 }
 
@@ -408,4 +409,53 @@ a:focus, a:hover {
   font-weight: 700;
   line-height: 23px;
   text-align: center;
+}
+
+.payment__title {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.92px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 18px;
+}
+
+.payment__item {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.payment__info {
+  color: var(--acent-color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.92px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment__provider-logo {
+  display: inline;
+}
+
+.payment__link-qualify {
+  color: rgb(106, 205, 104);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.92px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }/*# sourceMappingURL=main.css.map */
