@@ -458,4 +458,58 @@ a:focus, a:hover {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+}
+
+.location__container {
+  background: rgba(153, 153, 153, 0.08);
+}
+
+.location__image {
+  width: 220px;
+  margin: 55px auto 36px;
+}
+
+.location__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.location__description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.92px;
+  text-align: center;
+  color: rgb(50, 57, 65);
+  margin-bottom: 82px;
+}
+
+.location__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 18px;
+}
+
+.location__item {
+  background-color: #fff;
+}
+
+.location__button {
+  width: 86px;
+  height: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=main.css.map */
