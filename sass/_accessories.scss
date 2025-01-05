@@ -1,0 +1,72 @@
+.accessories__container{
+  padding: 15px;
+}
+.accessories__title{
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.accessories__list{
+  display: flex;
+}
+.accessories__item{
+  width: 155px;
+  margin-right: 20px;
+}
+.accessories__image{
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+}
+.accessories__name{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.accessories__description{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.32px;
+  text-align: left;
+  color: rgba(153, 153, 153, 1);
+  margin-bottom: 20px;
+}
+.accessories__price{
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.49px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(153, 153, 153, 1);
+
+}
+.accessories__price-value{
+margin-left: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.49px;
+  text-align: center;
+  color: #000;
+
+
+}
+.accessories__button{
+  width: 153px;
+  height: 46px;
+  background-color: var(--acent-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.49px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
