@@ -676,4 +676,39 @@ a:focus, a:hover {
   line-height: 14.62px;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.kickscooter-overview__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.5px;
+  text-align: center;
+}
+
+.kickscooter-overview__subtitle {
+  color: var(--acent-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.47px;
+  text-align: center;
+}
+
+.kickscooter-overview__content {
+  position: relative;
+}
+
+.kickscooter-overview__list {
+  list-style: decimal;
+  width: 215px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.kickscooter-overview__item {
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.29px;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
