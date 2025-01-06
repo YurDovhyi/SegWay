@@ -739,4 +739,33 @@ a:focus, a:hover {
   margin-bottom: 44px;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.dual-braking__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.5px;
+  text-align: left;
+  color: rgb(50, 57, 65);
+  margin-left: 16px;
+  margin-right: 16px;
+  text-transform: uppercase;
+}
+
+.dual-braking__description {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18.27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(50, 57, 65);
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 20px;
+  display: block;
+}
+
+.dual-braking__note {
+  display: block;
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */
