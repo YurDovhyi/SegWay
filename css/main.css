@@ -711,4 +711,32 @@ a:focus, a:hover {
   font-weight: 300;
   line-height: 18.29px;
   text-align: left;
+}
+
+.smart-bms__container {
+  background: radial-gradient(68.67% 47% at 50% 100%, #151D37 0%, #000000 100%);
+}
+
+.smart-bms__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.5px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-transform: uppercase;
+}
+
+.smart-bms__description {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18.27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 44px;
+  margin-left: 16px;
+  margin-right: 16px;
 }/*# sourceMappingURL=main.css.map */
