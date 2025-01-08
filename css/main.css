@@ -102,6 +102,7 @@ a:focus, a:hover {
   width: 375px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid #000;
 }
 
 :root {
@@ -829,6 +830,7 @@ a:focus, a:hover {
 
 .regenerative-brake__container {
   background: radial-gradient(68.67% 47% at 50% 100%, #151D37 0%, #000000 100%);
+  padding-bottom: 30px;
 }
 
 .regenerative-brake__title {
@@ -852,5 +854,30 @@ a:focus, a:hover {
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
-  margin-bottom: 30px;
+}
+
+.fast-charging__container {
+  height: 440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url("../images/hu_load.svg");
+}
+
+.fast-charging__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.5px;
+  text-align: center;
+}
+
+.fast-charging__description {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 19.27px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgb(50, 57, 65);
 }/*# sourceMappingURL=main.css.map */
